@@ -1,19 +1,11 @@
 import datetime
-b=0
-c=0
-a=float(input())
-if a>=30:
-    while a>=30:
-        a-=30
-        b+=1
-    if b>=20:
-        while b>=20:
-            b-=20
-            c+=1
-            print(a,b,c)
-
-
-
+x=float(input())
+n=int(input())
+if n>0 :
+    res=1-2*x/2+4*x/4-+(-1)*n*x*2*n/2*n
+    print(res)
+elif n<=0 :
+    print("Введіть число >0")
 
 
 
